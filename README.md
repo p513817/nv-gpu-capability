@@ -70,6 +70,10 @@ pip3 install beautifulsoup4
     'Tesla P40': {'capability': '6.1',
                 'sub_title': 'NVIDIA Data Center Products',
                 'title': 'CUDA-Enabled Datacenter Products'}}
+
+    # the gpu_info.json sould be generated
+    $ ls
+    gen_gpu_table.py  get_info.py  gpu_info.json  LICENSE  README.md
     ```
 # Reference
 [CUDA GPUs](https://developer.nvidia.com/cuda-gpus)
